@@ -1,0 +1,117 @@
+* {
+    font-family: 'Roboto';
+}
+
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+ul {
+    margin-right: auto;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.subtext {
+    width: 450px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-lower img {
+    margin-right: 0px;
+}
+
+.random h1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.cardset {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+    flex-direction: column;
+    gap: 3em;
+}
+
+#eevee {
+    border-radius: 25px;
+    border: 5px solid #3882f6;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+
+#quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    width: 820px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+}
+
+#god {
+    color: #1F2937;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+
+button {
+    width: 8em;
+    height: 2em;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.footer {
+    background-color: #3882f6;
+    color: #f9faf8;
+    text-align: left;
+    padding: 5em 0;
+    margin: 35px;
+
+}
+
+#signup2 {
+    border: 3px solid #F9FAF8;
+    margin-right: 32px;
+}
+
+.copyright {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    padding: 32px;
+    color: #f9faf8;
+    font-size: 18px;
+}
